@@ -1,0 +1,37 @@
+.online {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.offline {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.friendList {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  flex-direction: column;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+  border: solid black 1px;
+  border-radius: 10px;
+  max-width: 250px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.name {
+  font-size: 22px;
+  font-weight: 500;
+}
